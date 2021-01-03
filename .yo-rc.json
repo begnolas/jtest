@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.painfulstaff.jtest"
+    },
+    "jhipsterVersion": "6.10.5",
+    "applicationType": "monolith",
+    "baseName": "jtest",
+    "packageName": "com.painfulstaff.jtest",
+    "packageFolder": "com/painfulstaff/jtest",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ODcyOTdjNjllNzA2ZGQwZWRlMjc2MDM4Yjc0YTg0ZjlhOWVkMWU5MzJhYTQ3ODg5OTI2OGNmMzEyN2QwYTVkMjM3NDg4MjY0ZGJmMDIzNGJjN2Y3OGNkOGIzNTg3ZmM5YjUyOGZjZDM1ZWE2OTQyMDEwODI5ZWFjNmQyYThlNmI=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "darkly",
+    "clientThemeVariant": "dark",
+    "creationTimestamp": 1609693111642,
+    "testFrameworks": ["gatling", "protractor"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}
